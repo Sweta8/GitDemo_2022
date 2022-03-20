@@ -6,6 +6,8 @@ public class payload {
 	
 	//x has done
 	
+	//push code by architect of IST in develop branch
+	
 	public static String AddPlace()
 	
 	{
