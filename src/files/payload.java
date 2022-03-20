@@ -4,6 +4,8 @@ public class payload {
 
 	// checking Y is it done
 	
+	//x has done
+	
 	public static String AddPlace()
 	
 	{
