@@ -1,0 +1,27 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class Section11_RealTimeExercises {
+	
+	public static void main(String[]args)
+	{
+		WebDriverManager.chromedriver().setup();
+		WebDriver driver=new ChromeDriver();
+		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
+		
+		//Get the no of links in the page
+		
+		System.out.println(driver.findElements(By.tagName("a")).size());
+		
+		
+		//get links in the footer section
+		
+		System.out.println(driver.findElements(By.cssSelector("#gf-BIG a")).size());
+		
+		//in footer section links count of first column only
+	}
+
+}

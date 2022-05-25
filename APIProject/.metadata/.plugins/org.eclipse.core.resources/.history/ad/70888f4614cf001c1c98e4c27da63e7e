@@ -1,0 +1,28 @@
+package arrays;
+
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.Map;
+
+public class Practice {
+	
+	public static void main(String[] args)
+	{
+		String x="sweta singh si sbsssss dhjdjd";
+		int n=2;
+		int i=0;
+		if(x.length()/2!=0)
+		{
+			System.out.println("Cannot be divided");
+		}
+		else
+		{
+			while((i+n)<x.length())
+			{
+				System.out.println(i,i+n);
+			}
+		}
+		
+	}
+	
+}

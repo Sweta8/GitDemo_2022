@@ -1,0 +1,20 @@
+package harness;
+
+public class sortOnesAndZeroes {
+	
+	public static void main(String[] args)
+	{
+		int a[]= {1,0,0,1,0,0,0,1};
+		int low=0;
+		int high=a.length-1;
+		
+		while(low<high)
+		{
+			if(a[low]==0 && low<high)
+				low++;
+			if(a[high]==1 && low<high)
+				high--;
+		}
+	}
+
+}

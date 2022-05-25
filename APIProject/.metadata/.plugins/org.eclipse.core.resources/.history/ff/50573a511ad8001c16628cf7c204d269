@@ -1,0 +1,22 @@
+package twilio;
+
+import java.util.LinkedHashMap;
+import java.util.Map;
+
+public class HowManySentences {
+	
+	public static void main(String[] args)
+	{
+		int a=999;
+		int sum=0;
+		int d;
+		while(a>9 || sum>9)
+		{
+			if()
+			d=a%10;
+			
+			
+					}
+		
+	}
+}

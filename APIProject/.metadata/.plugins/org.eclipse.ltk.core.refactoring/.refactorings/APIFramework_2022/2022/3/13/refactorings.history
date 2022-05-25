@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;resources.DatatDrivenTest2&apos; to &apos;DatatDrivenTest&apos;&#x0A;- Original project: &apos;APIFramework_2022&apos;&#x0A;- Original element: &apos;resources.DatatDrivenTest2&apos;&#x0A;- Renamed element: &apos;resources.DatatDrivenTest&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;DatatDrivenTest2&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/test\/java=/test=/true=/=/optional=/true=/=/maven.pomderived=/true=/&lt;resources{DatatDrivenTest2.java[DatatDrivenTest2" matchStrategy="1" name="DatatDrivenTest" qualified="false" references="true" similarDeclarations="false" stamp="1648068406311" textual="false" version="1.0"/>
+</session>

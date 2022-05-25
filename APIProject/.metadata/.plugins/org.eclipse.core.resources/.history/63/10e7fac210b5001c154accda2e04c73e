@@ -1,0 +1,39 @@
+package sorting;
+
+public class QuickSort {
+	
+	public static void main(String[] args)
+	{
+		
+		
+		
+		
+	}
+	
+	
+	public void quicksort(int a[], int low,int high)
+	{
+		int partitionIndex;
+		if()
+	}
+	
+	public void partition(int a[],int low,int high)
+	{
+		int pivot=a[0];
+		int i=low+1;
+		int j=high;
+		do
+		{
+		while(a[i]<=pivot)
+		{
+			i++;
+		}
+		
+		while(a[i]>pivot)
+		{
+			j--;
+		}
+		}
+	}
+
+}

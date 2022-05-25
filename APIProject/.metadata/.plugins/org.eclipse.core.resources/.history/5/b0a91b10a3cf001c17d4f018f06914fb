@@ -1,0 +1,10 @@
+package harness;
+
+public class Runner {
+	
+	public static void main(String[] args)
+	{
+		LinkedList l=new LinkedList();
+	}
+
+}

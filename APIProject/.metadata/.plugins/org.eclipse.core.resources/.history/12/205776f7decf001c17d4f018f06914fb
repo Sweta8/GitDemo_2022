@@ -1,0 +1,16 @@
+package linkedList;
+
+public class Practice {
+	
+	public static void main(String[] args)
+	{
+		int no=22;
+		int n;
+		while(no>0)
+		{
+			 n=no;
+			if()
+		}
+	}
+
+}

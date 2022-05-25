@@ -1,0 +1,13 @@
+package checkingAndTesting;
+
+public class Practice {
+	
+	public static int binarySearch(int a[],int low,int high,int key)
+	{
+		int mid=(low+high)/2;
+		
+		if(a[mid])
+		
+	}
+
+}

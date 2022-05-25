@@ -1,0 +1,11 @@
+package harness;
+
+public class sortOnesAndZeroes {
+	
+	public static void main(String[] args)
+	{
+		int a[]= {1,0,0,1,0,0,0,1};
+		
+	}
+
+}

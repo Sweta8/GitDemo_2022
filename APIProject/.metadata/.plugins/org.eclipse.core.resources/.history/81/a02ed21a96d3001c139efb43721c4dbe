@@ -1,0 +1,24 @@
+package checkingAndTesting;
+
+import java.util.LinkedHashMap;
+import java.util.Map;
+
+public class Practice {
+	
+	public static void main(String[] args)
+	{
+		int a=999;
+		int sum=0;
+		int d=0;
+		whille(a>0)
+		{
+			while(sum>0)
+			{
+				a=sum;
+				sum=0;
+			}
+		}
+	}
+		
+		
+}

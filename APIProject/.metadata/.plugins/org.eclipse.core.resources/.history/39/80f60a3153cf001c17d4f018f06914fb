@@ -1,0 +1,27 @@
+package arrays;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Practice {
+	
+	public static void main(String[] args)
+	{
+		String x="sweta sweta ankita isdoinwell ankita ankita jkli";
+		Map<String,Integer> m=new HashMap<String,Integer>();
+		String ch[]=x.split(" ");
+		for(int i=0;i<ch.length;i++)
+		{
+			
+		}
+		
+		for(Map.Entry<String, Integer> k: m.entrySet())
+		{
+			if(k.getValue()>1)
+			{
+				System.out.println(k.getKey()+" "+k.getValue());
+			}
+		}
+	}
+	
+}

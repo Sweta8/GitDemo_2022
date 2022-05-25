@@ -1,0 +1,48 @@
+package twilio;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+public class HowManySentences {
+	
+	
+	public static void main(String [] args)
+	{
+		String [] wordSet= {"listen","silent","it","is"};
+		String sentence = "listen it is silent";
+		String x="";
+		char ch[];
+		char ch1[];
+		List<String> k=new ArrayList<String>();
+		for(int i=0;i<wordSet.length;i++)
+		{
+			ch=wordSet[i].toCharArray();
+			Arrays.sort(ch);
+			for(int j=i+1;j<wordSet.length;j++)
+			{
+				ch1=wordSet[j].toCharArray();
+				Arrays.sort(ch1);
+				if(String.valueOf(ch).equalsIgnoreCase(String.valueOf(ch1))&& wordSet[j]!="")
+				{
+					k.add(wordSet[i]);
+					k.add(wordSet[j]);
+					wordSet[j]="";
+				}
+			}
+		}
+		
+		int count=0;
+		
+		for(int i=0;i<k.size()-1;i++)
+		{
+			System.out.println(sentence.replace(sentence, wordSet[i+1]));
+			System.out.println(sentence.replace(k.get(i), k.get(i+1)));
+			System.out.println(sentence.replace(k.get(i+1), k.get(i)));
+			System.out.println(sentence.replace(sentence, wordSet[i]));
+		}
+		
+		
+	}
+
+}

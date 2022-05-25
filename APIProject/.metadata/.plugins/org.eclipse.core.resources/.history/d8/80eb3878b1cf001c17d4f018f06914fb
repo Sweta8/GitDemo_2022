@@ -1,0 +1,22 @@
+package harness;
+
+import arrays.binarySearch;
+
+public class BinaryArrayCountNoOf1s {
+	
+	public static void main(String[] args)
+	{
+		int a[]= {1,1,1,1,1,1,0,0,0,0};
+		int c=binarySearch(a,a.length);
+		System.out.println(c);
+		
+	}
+	
+	public static int countOnes(int a[],int n)
+	{
+		int low=0;
+		int high=n-1;
+		int mid;
+	}
+
+}

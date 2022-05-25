@@ -1,0 +1,25 @@
+package harness;
+
+public class NoOfDigitsAndValuesThanContain2 {
+	
+	public static void main(String[] args)
+	{
+		int no=22;
+		int n;
+		int digit=0;
+		for(int i=1;i<no;i++)
+		{
+			n=i;
+			while(n>0)
+			{
+				if(n%i==0)
+				{
+					digit++;
+				}
+			}
+		}
+		
+		System.out.println(digit);
+	}
+
+}

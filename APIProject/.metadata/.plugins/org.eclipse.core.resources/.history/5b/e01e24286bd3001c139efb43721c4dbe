@@ -1,0 +1,10 @@
+package checkingAndTesting;
+
+public class Practice {
+	
+	public static int binarySearch(int a[],int low,int high)
+	{
+		
+	}
+
+}

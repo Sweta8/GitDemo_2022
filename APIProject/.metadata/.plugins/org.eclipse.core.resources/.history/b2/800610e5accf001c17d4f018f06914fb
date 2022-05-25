@@ -1,0 +1,10 @@
+package harness;
+
+public class PeekElementInAnArray {
+	
+	public static void main(String[] args)
+	{
+		
+	}
+
+}

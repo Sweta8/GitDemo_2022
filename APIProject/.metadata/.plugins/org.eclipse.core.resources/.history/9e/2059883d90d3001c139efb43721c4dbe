@@ -1,0 +1,11 @@
+package checkingAndTesting;
+
+import java.util.LinkedHashMap;
+import java.util.Map;
+
+public class Practice {
+	
+	int a[]= {10,9,20,30,50,99,80,00};
+		
+		
+}

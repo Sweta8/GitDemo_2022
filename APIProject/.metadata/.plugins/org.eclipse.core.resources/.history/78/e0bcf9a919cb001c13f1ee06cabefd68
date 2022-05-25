@@ -1,0 +1,15 @@
+package arrays;
+
+import java.util.Set;
+import java.util.TreeSet;
+
+public class Practice {
+	
+	public static void main(String[] args)
+	{
+		int a=999;
+		
+	}
+	
+
+}

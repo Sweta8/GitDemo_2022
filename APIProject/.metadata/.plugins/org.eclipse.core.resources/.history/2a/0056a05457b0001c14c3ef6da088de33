@@ -1,0 +1,38 @@
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class PracticeProblem_Scroll {
+	
+	public static void main(String[] args)
+	{
+		WebDriverManager.chromedriver().setup();
+		WebDriver driver=new ChromeDriver();
+		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
+		
+		JavascriptExecutor js =(JavascriptExecutor)driver;
+		js.executeScript("window.scroll(0,500)");
+		
+		js.executeScript("document.querySelector('.tableFixHead').scroll=500");
+		
+		int sum=0;
+		List<WebElement> selectAmounts=driver.findElements(By.cssSelector(".tableFixHead td:nth-child(4)"));
+		for(WebElement selectAmount : selectAmounts)
+		{
+			 sum =sum+Integer.parseInt(selectAmount.getText());
+		}
+		
+		System.out.println(sum);
+		
+		
+		driver.findElement(By.xpath("//div[@class='totalAmount']")).getText();
+	}
+	
+
+}

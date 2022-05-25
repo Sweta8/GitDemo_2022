@@ -1,0 +1,36 @@
+package practice;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
+import java.util.TreeMap;
+
+public class Test {
+	static static void main(String[] arg)
+	{  
+	  
+		String x="sweta is singing";
+		char ch[]=x.toCharArray();
+		
+		Map<Character,Integer> m=new HashMap<>();	
+		
+		for(int i=0;i<ch.length;i++)
+		{
+			if(!m.containsKey(ch))
+			{
+				m.put(ch[i], m.get(ch[i])+1);
+			}
+			else
+			{
+				m.put(ch[i], 1);
+			}
+		}
+		
+		for(Map.Entry<Character, Integer> k: m.entrySet())
+		{
+			if(k.getValue()>1) {
+				System.out.println(k.getKey()+" "+k.getValue());
+			}
+		}
+	}
+	}

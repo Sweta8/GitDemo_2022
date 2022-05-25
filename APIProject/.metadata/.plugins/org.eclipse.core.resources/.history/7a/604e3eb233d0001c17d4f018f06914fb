@@ -1,0 +1,26 @@
+package revision;
+
+public class Check {
+	
+	public static void main(String[] args)
+	{
+		
+	}
+	
+	public int countNos(int a[],int n)
+	{
+		int low=0;
+		int high=n-1;
+		int mid;
+		while(low<high)
+		{
+			mid=(low+high)/2;
+			if(a[mid]>1)
+			{
+				
+			}
+		}
+		
+	}
+
+}

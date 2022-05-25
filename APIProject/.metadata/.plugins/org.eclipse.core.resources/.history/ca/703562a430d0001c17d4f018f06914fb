@@ -1,0 +1,39 @@
+package revision;
+
+public class LinkedList {
+	
+	Node head;
+	
+	public void insert(int data)
+	{
+		Node temp=new Node();
+		temp.data=data;
+		temp.next=null;
+		if(head==null)
+		{
+			head=temp;
+		}
+		else
+		{
+			Node ptr=head;
+			while(ptr.next!=null)
+			{
+				ptr=ptr.next;
+			}
+			ptr.next=temp;
+		}
+		
+	}
+	
+	public int show()
+	{
+		int count=0;
+		Node ptr=head;
+		while(ptr!=null)
+		{
+			System.out.println(ptr.data);
+			ptr=ptr.next;
+		}
+	}
+
+}

@@ -1,0 +1,14 @@
+package binarySearch;
+
+public class Runner {
+	
+	public static void main(String [] args)
+	{
+		BinarySearch b=new BinarySearch();
+		
+		Node p=b.createNode(30);
+		Node p1=b.createNode(10)
+		
+	}
+
+}

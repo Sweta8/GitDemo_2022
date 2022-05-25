@@ -1,0 +1,16 @@
+package linkedList;
+
+public class Practice {
+	
+	public static void main(String[] args)
+	{
+		int a[]= {1,0,0,0,1,1,1,0,0};
+		
+	}
+	
+	public int countNoOfNodes(int a[],int n)
+	{
+		
+	}
+
+}

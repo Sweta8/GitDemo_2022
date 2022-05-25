@@ -1,0 +1,30 @@
+package datastructure_practice;
+
+public class Runner {
+	
+	public static void main(String[] args)
+	{
+		LinkedList l=new LinkedList();
+		l.insert(56);
+		l.insert(90);
+		l.insert(78);
+		System.out.print("Elements default values at beginning: ");
+		l.show();
+		l.insertAtBeginning(30);
+		System.out.print("Elements after inserting at beginning: ");
+		l.show();
+		l.insertAtEnd(89);
+		System.out.print("Elements after inserting at end: ");
+		l.show();
+		int noOfElements=l.countNodes();
+		int middleElementPosition=noOfElements/2;
+		int value=l.middleElement(middleElementPosition);
+		System.out.println("Middle Element Value is: "+ value);
+		l.insertAtPostion(4, 66);
+		System.out.print("Elements after inserting at position: ");
+		l.show();
+		l.deleteFirstNode();
+		System.out.println("Elements after inserting first node: ");
+		
+	}
+}

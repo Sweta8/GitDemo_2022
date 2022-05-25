@@ -1,0 +1,16 @@
+package harness;
+
+public class SwapTwoStringWithoutUsingThirdVariable {
+	
+	public static void main(String[] args)
+	{
+		String x="sweta";
+		String x1="singh";
+		x=x+x1;
+		x1=x.substring(x1.length());
+		x=x.substring(0,x1.length());
+		System.out.println(x.substring(x1.length()));
+		System.out.println(x1);
+	}
+
+}

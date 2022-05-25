@@ -1,0 +1,12 @@
+package revision;
+
+public class Runnner {
+	
+	public static void main(String[] args)
+	{
+		LinkedList l=new LinkedList();
+		l.insert(78);
+		l.show();
+	}
+
+}

@@ -1,0 +1,16 @@
+package arrays;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Practice {
+	
+	public static void main(String[] args)
+	{
+		String x="sweta sweta ankita isdoinwell ankita ankita jkli";
+		Map<String,Integer> m=new HashMap<String,Integer>();
+		String a[]=x.split(" ");
+		s
+	}
+	
+}

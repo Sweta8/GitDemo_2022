@@ -1,0 +1,12 @@
+package revision;
+
+public class LinkedList {
+	
+	Node head;
+	
+	public void insertNode(int data)
+	{
+		
+	}
+
+}

@@ -1,0 +1,19 @@
+package checkingAndTesting;
+
+import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
+import java.util.Set;
+
+public class Practice {
+	
+		public static void main(String[] args)
+		{
+			int a[]= {10,20,20,20,303,303,303030303,111};
+			Map<Integer,Integer> m=new LinkedHashMap<>()
+			for(int i=0;i<a.length;i++)
+			{
+				
+			}
+		}
+
+}

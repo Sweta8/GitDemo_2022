@@ -1,0 +1,14 @@
+package twilio;
+
+import java.util.LinkedHashMap;
+import java.util.Map;
+
+public class HowManySentences {
+	
+	public static void main(String[] args)
+	{
+		int a[]= {1,3,2,3,10,4,9};
+		int secondHighest=a[0];
+		int firstHigest=a[0];
+	}
+}

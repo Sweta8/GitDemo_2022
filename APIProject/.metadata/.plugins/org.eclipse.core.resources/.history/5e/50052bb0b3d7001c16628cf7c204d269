@@ -1,0 +1,22 @@
+package twilio;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class HowManySentences {
+	
+	
+	public static void main(String [] args)
+	{
+		int a[]= {10,20,30};
+		Set<Integer> h=new HashSet<Integer>();
+		for(int i=0;i<a.length;i++)
+		{
+			h.add(a[i]);
+		}
+			
+	}
+		
+		
+
+}

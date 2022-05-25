@@ -1,0 +1,34 @@
+package checkingAndTesting;
+
+public class Practice {
+	
+	public static int binarySearch(int a[],int low,int high,int key)
+	{
+		int mid=(low+high)/2;
+		
+		if(a[mid]==key)
+		{
+			return mid;
+		}
+		else if(a[mid]<key)
+		{
+			return binarySearch(a, low, mid-1, key);
+		}
+		else if(a[mid]>key)
+		{
+			return binarySearch(a, mid+1, high, key);
+		}
+		
+		return -1;
+		
+	}
+	
+	
+	public static void main(String[] args)
+	{
+		int a[]= {10,20,30,40,50};
+		int index= binarySearch(a, 0, a.length-1, 50);
+		System.out.println(index);
+	}
+
+}

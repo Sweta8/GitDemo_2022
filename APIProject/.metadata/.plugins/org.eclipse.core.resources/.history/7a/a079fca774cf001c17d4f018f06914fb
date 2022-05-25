@@ -1,0 +1,13 @@
+package dataStructures;
+
+public class Runner {
+	
+	public static void main(String[] args)
+	{
+		LinkedList l=new LinkedList();
+		l.insert(20);
+		l.insert(45);
+		l.insert(60);
+	}
+
+}

@@ -1,0 +1,17 @@
+package twilio;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class HowManySentences {
+	
+	
+	public static void main(String [] args)
+	{
+		int a[]= {1,1,2,3,3,3,3,3,5,6};
+			
+	}
+		
+		
+
+}

@@ -1,0 +1,20 @@
+package arrays;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Practice {
+	
+	public static void main(String[] args)
+	{
+		String x="sweta sweta ankita isdoinwell ankita ankita jkli";
+		x=x.toLowerCase().replace(" ", "");
+		char ch[]=x.toCharArray();
+		for(int i=0;i<x.length();i++)
+			{
+			if
+			
+			}
+	}
+	
+}

@@ -1,0 +1,15 @@
+package harness;
+
+public class PeekElementInAnArray {
+	
+	public static void main(String[] args)
+	{
+		int a[]= {5, 10, 20, 15};
+		
+		for(int i=1;i<a.length;i++)
+		{
+			
+		}
+	}
+
+}

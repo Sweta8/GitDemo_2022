@@ -1,0 +1,24 @@
+package linkedList;
+
+public class Practice {
+	
+	public static void main(String[] args)
+	{
+		int no=22;
+		int n;
+		int digit=0;
+		while(no>0)
+		{
+			 n=no;
+			 while(n>0)
+			 {
+				 if(n%10==2)
+				 {
+					 digit++;
+				 }
+				 n=n/10;
+			 }
+		}
+	}
+
+}

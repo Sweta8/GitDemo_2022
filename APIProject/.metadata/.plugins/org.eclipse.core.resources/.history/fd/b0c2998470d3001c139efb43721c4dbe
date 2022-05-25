@@ -1,0 +1,12 @@
+package checkingAndTesting;
+
+public class Practice {
+	
+	public static void main(String[] args)
+	{
+		String x="sweta sweta ankita isdoinwell ankita ankita jkli";
+		x=x.replace(" ", "");
+		
+	}
+
+}

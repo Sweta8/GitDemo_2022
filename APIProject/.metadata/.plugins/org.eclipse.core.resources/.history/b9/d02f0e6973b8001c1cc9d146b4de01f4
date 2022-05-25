@@ -1,0 +1,10 @@
+package sorting;
+
+public class Test {
+	
+	public static void main(String[] args) {
+		
+		String x[]= {1,4,2,3,8,5,7,1,0};
+	}
+
+}

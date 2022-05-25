@@ -1,0 +1,18 @@
+package twilio;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class HowManySentences {
+	
+	
+	public static void main(String [] args)
+	{
+		String x="sweta sweta ankita isdoinwell ankita ankita jkli";
+		x=x.toLowerCase().replace(" ", "");
+			
+	}
+		
+		
+
+}

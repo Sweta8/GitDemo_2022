@@ -1,0 +1,22 @@
+package checkingAndTesting;
+
+public class Practice {
+	
+	public static int binarySearch(int a[],int low,int high,int key)
+	{
+		int mid;
+		while(low<=high)
+		{
+			mid=(low+high)/2;
+			if(a[mid]==key)
+			{
+				System.out.println(key);
+			}
+			else if(a[mid]<key)
+			{
+				return binarySearch(a, low, high, key)
+			}
+		}
+	}
+
+}

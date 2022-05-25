@@ -1,0 +1,35 @@
+package sorting;
+
+public class Test {
+	
+	public static void main(String[] args) {
+		
+		int x[]= {1,4,2,3,8,5,7,1,0};
+		int temp;
+		int min=0;
+		int j,key;
+		boolean flag=false;
+		for(int i=1;i<x.length;i++)
+		{
+			key=x[i];
+			j=i-1;
+			while(j>=0 && x[j]>key)
+			{
+				x[j+1]=x[j];
+				j--;
+			}
+			
+			x[j+1]=key;
+		
+		
+		}
+		
+		for(int i=0;i<x.length;i++)
+		{
+			System.out.print(x[i]+" ");
+		}
+		
+		
+	}
+
+}

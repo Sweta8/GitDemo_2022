@@ -1,0 +1,42 @@
+package checkingAndTesting;
+
+import java.util.LinkedHashMap;
+import java.util.Map;
+
+public class Practice {
+	
+	
+		public static void main(String[] args)
+		{
+			permute(null, 0);
+			
+		}
+		
+		public static void permute(String a, int index)
+		{
+			if(a.length()==index)
+			{
+				System.out.println(a);
+			}
+			else
+			{
+				for(int i=index;i<a.length();i++)
+				{
+					a=swap(a, i, index);
+					permute(a, index+1);
+					a=swap(a, i, index);
+				}
+			}
+		}
+		
+		public static String swap(String x,int a,int b)
+		{
+			char ch[]=x.toCharArray();
+			char temp;
+			temp=ch[a];
+			ch[a]=ch[b];
+			ch[b]=temp;
+			return String.valueOf(ch);
+		}
+		
+}

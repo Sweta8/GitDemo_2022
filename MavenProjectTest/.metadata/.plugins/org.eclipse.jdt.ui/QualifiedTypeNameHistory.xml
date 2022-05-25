@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.junit.runner.RunWith"/>
+    <fullyQualifiedTypeName name="cucumber.api.java.en.Given"/>
+    <fullyQualifiedTypeName name="cucumber.api.java.en.When"/>
+    <fullyQualifiedTypeName name="cucumber.api.java.en.Then"/>
+    <fullyQualifiedTypeName name="cucumber.api.CucumberOptions"/>
+    <fullyQualifiedTypeName name="cucumber.api.junit.Cucumber"/>
+    <fullyQualifiedTypeName name="io.cucumber.testng.CucumberOptions"/>
+    <fullyQualifiedTypeName name="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+    <fullyQualifiedTypeName name="io.cucumber.java.PendingException"/>
+    <fullyQualifiedTypeName name="io.cucumber.java.en.And"/>
+</qualifiedTypeNameHistroy>

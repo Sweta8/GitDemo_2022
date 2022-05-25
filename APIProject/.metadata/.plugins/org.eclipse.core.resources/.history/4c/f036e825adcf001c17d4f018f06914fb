@@ -1,0 +1,18 @@
+package harness;
+
+public class PeekElementInAnArray {
+	
+	public static void main(String[] args)
+	{
+		int a[]= {5, 10, 20, 25};
+		
+		for(int i=1;i<a.length-1;i++)
+		{
+			if((a[i]>a[i-1]) &&(a[i]>a[i+1]))
+			{
+				System.out.println(a[i]);
+			}
+		}
+	}
+
+}

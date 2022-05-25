@@ -1,0 +1,27 @@
+package twilio;
+
+import java.util.LinkedHashMap;
+import java.util.Map;
+
+public class HowManySentences {
+	
+	public static void main(String[] args)
+	{
+		
+		
+		
+	}	
+	
+	public static void permute(String x, int index)
+	{
+		if(index==x.length()-1)
+		{
+			System.out.println(x);
+		}
+		else
+		{
+			
+		}
+	}
+
+}

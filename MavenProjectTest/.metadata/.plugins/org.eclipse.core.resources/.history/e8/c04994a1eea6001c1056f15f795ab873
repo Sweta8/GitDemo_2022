@@ -1,0 +1,43 @@
+package stepDefinitions;
+
+import io.cucumber.java.PendingException;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+;
+
+public class StepDefinition {
+
+	
+	@When("User login into the application with {string} and {string}")
+	public void user_login_into_the_application_with_and(String args1, String args2) {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+	
+	@When("^User login into the application with username and password$")
+	public void user_login_into_the_application_with_username_and_password() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+		
+		System.out.println("User login into the application with username and passwords");
+	    
+	}
+
+	@Then("^Home page is populated$")
+	public void home_page_is_populated() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+		
+		System.out.println("Home page is populated");
+	   
+	}
+
+	@Then("^Cards are displayed$")
+	public void cards_are_displayed() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+		
+		System.out.println("Cards are displayed");
+	
+	}
+	
+}
